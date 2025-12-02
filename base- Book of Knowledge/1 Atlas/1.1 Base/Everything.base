@@ -1,0 +1,15 @@
+formulas:
+  Untitled: ""
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - file.folder
+    sort:
+      - property: file.name
+        direction: ASC
+      - property: file.basename
+        direction: ASC
+    columnSize:
+      file.name: 368
